@@ -781,7 +781,7 @@
 <div id="uthsc-off-canvas-mask" class="uthsc-off-canvas-mask hide-for-print"></div>
 <div aria-hidden="true" id="mobile-navigation" class="hide-for-large hide-for-print">
     <button id="uthsc-off-canvas-button--slide-left" class="toggle-slide-left button"
-            style="background-image:url('/-resources/2015/images/nav-toggler-left-home-page.png');"></button>
+            style="background-image:url('/images/nav-toggler-left-home-page.png');"></button>
     <button id="uthsc-off-canvas-button--slide-right" class="toggle-slide-right button"></button>
     <div class="safari-bottom-nav-fix"></div>
 </div><?php include("includes/uthsc-closing-scripts.inc"); ?>
