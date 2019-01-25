@@ -1,6 +1,6 @@
 # Kevin Gonzalez : Senior Project
 
-##Get PHP on you local machine:
+## Get PHP on you local machine:
 
 *Windows:*
 1. Install Chocolatey - https://chocolatey.org/install
