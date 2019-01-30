@@ -1,3 +1,7 @@
 .banner-height {
-  min-height: 150px !important;
+  min-height: 120px !important;
+}
+
+#add-space {
+  margin: 15px;
 }
