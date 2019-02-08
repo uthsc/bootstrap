@@ -1,321 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!--- meta tags -->
-      <meta charset="utf-8" />
-      <meta
-         name="viewport"
-         content="width=device-width, initial-scale=1, shrink-to-fit=no"
-         />
-      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-      <!-- local bootstrap -->
-      <link rel="stylesheet" href="./css/bootstrap.min.css" />
-      <!-- custom stylesheet -->
-      <link rel="stylesheet" href="./css/custom.css" />
-      <!-- fonts -->
-      <link
-         href="https://fonts.googleapis.com/css?family=Open+Sans"
-         rel="stylesheet"
-         />
-      <link
-         href="https://fonts.googleapis.com/css?family=Roboto"
-         rel="stylesheet"
-         />
-      <title>Bootstrap Kitchen Sink</title>
-   </head>
-   <body style="background-color:lightgray">
-      <header style="background-color:#00835f ">
-      <div class="container d-flex justify-content-center banner-height" >
-         <div class="row " >
-            <img src="./images/uthsc-logo-white-text.svg">
-         </div>
+  <head>
+    <!--- meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- local bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="./css/custom.css" />
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <title>Bootstrap Kitchen Sink</title>
+  </head>
+  <body style="background-color:lightgray">
+    <header style="background-color:#00835f ">
+      <div class="container d-flex justify-content-center banner-height">
+        <div class="row ">
+          <img src="./images/uthsc-logo-white-text.svg" />
+        </div>
       </div>
-      </header>
+    </header>
 
-      <br>
-
-      <div class="container">
-         <h1>Navigation Bar</h1>
-         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-               <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                     <a class="nav-link" href="#"
-                        >Home <span class="sr-only">(current)</span></a
-                        >
-                  </li>
-                  <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                  <li class="nav-item dropdown">
-                     <a
-                        class="nav-link dropdown-toggle"
-                        href="#"
-                        id="navbarDropdown"
-                        role="button"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                        >
-                     Dropdown
-                     </a>
-                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                     </div>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link disabled" href="#">Disabled</a>
-                  </li>
-               </ul>
-            </div>
-         </nav>
-      </div>
-
-      <br>
-      <hr width="85%">
-
-      <div class="container">
-         <h1>Search Bar</h1>
-         <form class="form-inline my-2 my-lg-0">
-         <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-            />
-         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-         Search
-         </button>
-      </div>
-
-      <br>
-      <hr width="85%">
-
-      <div class="container">
-         <h1>Buttons</h1>
-         <div class="row">
-            <button id="add-space" type="button" class="btn btn-primary">Primary</button>
-            <button id="add-space" type="button" class="btn btn-secondary">Secondary</button>
-            <button id="add-space" type="button" class="btn btn-success">Success</button>
-            <button id="add-space" type="button" class="btn btn-danger">Danger</button>
-            <button id="add-space" type="button" class="btn btn-warning">Warning</button>
-            <button id="add-space" type="button" class="btn btn-info">Info</button>
-            <button id="add-space" type="button" class="btn btn-light">Light</button>
-            <button id="add-space" type="button" class="btn btn-dark">Dark</button>
-            <button id="add-space" type="button" class="btn btn-link">Link</button>
-         </div>
-         <div class="row"><button id="add-space" type="button" class="btn btn-outline-primary">Primary</button>
-            <button id="add-space" type="button" class="btn btn-outline-secondary">Secondary</button>
-            <button id="add-space" type="button" class="btn btn-outline-success">Success</button>
-            <button id="add-space" type="button" class="btn btn-outline-danger">Danger</button>
-            <button id="add-space" type="button" class="btn btn-outline-warning">Warning</button>
-            <button id="add-space" type="button" class="btn btn-outline-info">Info</button>
-            <button id="add-space" type="button" class="btn btn-outline-light">Light</button>
-            <button id="add-space" type="button" class="btn btn-outline-dark">Dark</button>
-         </div>
-         <div class="row">
-            <button id="add-space" type="button" class="btn btn-primary btn-lg">Large button</button>
-         </div>
-         <div class="row">
-            <button id="add-space" type="button" class="btn btn-primary btn-sm">Small button</button>
-         </div>
-      </div>
-
-         <br>
-         <hr width="85%">
-
-         <div class="container">
-            <h1>Dropdowns</h1>
-            <!-- Large button groups (default and split) -->
-            <div class="btn-group">
-               <button id="add-space" class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-               Large button
-               </button>
-               <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Separated link</a>
-               </div>
-            </div>
-            <div class="btn-group">
-               <button class="btn btn-secondary btn-lg" type="button">
-               Large split button
-               </button>
-               <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-               <span class="sr-only">Toggle Dropdown</span>
-               </button>
-               <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Separated link</a>
-               </div>
-            </div>
-            <!-- Small button groups (default and split) -->
-            <div class="btn-group">
-               <button id="add-space" class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-               Small button
-               </button>
-               <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Separated link</a>
-               </div>
-            </div>
-            <div class="btn-group">
-               <button class="btn btn-secondary btn-sm" type="button">
-               Small split button
-               </button>
-               <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-               <span class="sr-only">Toggle Dropdown</span>
-               </button>
-               <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Separated link</a>
-               </div>
-            </div>
-         </div>
-      </div>
-
-      <br>
-      <hr width="85%">
-
-      <div class="container">
-            <h1>Carousel - Slide Show</h1>
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img class="d-block w-100" src="./images/slide1.jpg" alt="First slide example" height="500" width="40">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="./images/slide2.jpg" alt="Second slide example" height="500" width="40">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="./images/slide3.jpg" alt="Third slide example" height="500" width="40">
-                    </div>
-                  </div>
-                </div>
-      </div>
-
-      <br>
-      <hr width="85%">
-
-      <div class="container">
-         <h1>Grid</h1>
-         <div class="row">
-               <div class="col-sm-8"><img src="images/grid2.jpg" width="600"></div>
-               <div class="col-sm-4"><img src="./images/grid4.jpg" width="300"><p>Lorem ipsum dolor sit amet, cum et vulputate democritum, ut reque lucilius partiendo usu. 
-                  </p></div>
-               
-             </div>
-             <br>
-             <div class="row">
-               <div class="col-sm"><img src="./images/grid3.jpg" height="300" width="700"><p>Lorem ipsum dolor sit amet, cum et vulputate democritum, ut reque lucilius partiendo usu. Nec an iusto soleat quaestio, ad lorem discere eam. Nec an probatus lobortis. Summo sanctus deterruisset in per. Eum animal iuvaret accommodare an.</p></div>
-               <div class="col-sm-4"><img src="./images/grid7.jpg" height="150" width="300"></div>
-             </div>
-             <br>
-             <div class="row">
-                  <div class="col-sm"><img src="./images/grid1.jpg" height="300" width="450"></div>
-                  <div class="col-sm"><img src="./images/grid5.jpg" height="300" width="250"></div>
-                  <div class="col-sm"><img src="./images/grid6.jpg" height="300" width="250"></div>
-                </div>
-      </div>
-
-      <br>
-      <hr width="85%">
-
-      <div class="container">
-         <h1>Card</h1>
-         <div class="card text-center">
-               <div class="card-header">
-                 <ul class="nav nav-tabs card-header-tabs">
-                   <li class="nav-item">
-                     <a class="nav-link active" href="#">Active</a>
-                   </li>
-                   <li class="nav-item">
-                     <a class="nav-link" href="#">Link</a>
-                   </li>
-                   <li class="nav-item">
-                     <a class="nav-link disabled" href="#">Disabled</a>
-                   </li>
-                 </ul>
-               </div>
-               <div class="card-body">
-                 <h5 class="card-title">Title</h5>
-                 <p class="card-text">Lorem ipsum dolor sit amet, id his quot iisque. Sed soleat adolescens ei, vix dolor eleifend disputando in. Duo habemus qualisque omittantur at, usu nobis scripserit signiferumque an. Nostro possim cu sea, adipisci invenire principes ius ex.</p>
-               </div>
-             </div>
-
-             <br>
-
-             <div class="card-group">
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title">Title</h5>
-                      <p class="card-text">Lorem ipsum dolor sit amet, id his quot iisque. Sed soleat adolescens ei, vix dolor eleifend disputando in. Duo habemus qualisque omittantur at, usu nobis....</p>
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-muted">Last updated ... mins ago</small>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title">Title</h5>
-                      <p class="card-text">Lorem ipsum dolor sit amet, id his quot iisque. Sed soleat adolescens ei, vix dolor eleifend disputando in. Duo habemus qualisque omittantur at, usu nobis scripserit signiferumque an. Nostro possim cu sea, adipisci invenire principes ius ex.</p>
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-muted">Last updated ... mins ago</small>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title">Title</h5>
-                      <p class="card-text">Lorem ipsum dolor sit amet, id his quot iisque. Sed soleat adolescens ei, vix dolor eleifend disputando in. </p>
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-muted">Last updated ... mins ago</small>
-                    </div>
-                  </div>
-                </div>
-      </div>
-
-      <br>
-      <hr width="85%">
-
-      <div class="container">
-         <h1>Forms</h1>
-         <form>
-               <div class="form-group">
-                 <label for="exampleInputEmail1">Email address</label>
-                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-               </div>
-               <div class="form-group">
-                 <label for="exampleInputPassword1">Password</label>
-                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-               </div>
-               <div class="form-group form-check">
-                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                 <label class="form-check-label" for="exampleCheck1">Check me out</label>
-               </div>
-               <button type="submit" class="btn btn-primary">Submit</button>
-             </form>
-      </div>
-
-      <br>
-      <hr width="85%">
- 
-      <script src="./js/jquery-3.3.1.min.js"></script>
-      <script src="./js/bootstrap.bundle.min.js"></script>
-      <script src="./js/bootstrap.min.js"></script>
-   </body>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
 </html>
