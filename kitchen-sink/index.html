@@ -29,7 +29,15 @@
     />
   </head>
 
-  <body>
+  <body style="background-color:lightgray">
+    <header style="background-color:#00835f ">
+      <div class="container d-flex justify-content-center banner-height">
+        <div class="row ">
+          <img src="./images/uthsc-logo-white-text.svg" />
+        </div>
+      </div>
+    </header>
+
     <br />
     <hr width="85%" />
 
@@ -139,23 +147,16 @@
     <div class="container ">
       <h2>Search Bar</h2>
 
-      <form class="uthsc-people-search">
-        <div class="callout">
-          <div>
-            <input
-              class="input-group-field"
-              placeholder="Search ..."
-              type="search"
-            />
-            <div class="input-group-button">
-              <button class="button">
-                <span class="fa fa-search" aria-hidden="true"></span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </form>
+      <div class="callout-test">
+        <input class="search-input" type="search" placeholder="Search . . ." />
+        <button class="button">
+          <span class="fa fa-search"></span>
+        </button>
+      </div>
     </div>
+
+    <br />
+    <hr width="85%" />
 
     <script src="./js/jquery-3.3.1.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
