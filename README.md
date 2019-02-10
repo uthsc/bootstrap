@@ -28,3 +28,5 @@ _MacOS_
 1. pull the repo down `git clone git@github.com:uthsc/bootstrap.git`
 1. navigate to the kitchen-sink folder
 1. click on kitchensink.html
+
+- Updates will be posted on: http://exotic-pin.surge.sh/
