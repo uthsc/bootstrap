@@ -23,7 +23,7 @@ _MacOS_
 1. start the local web server `php -S localhost:8000 -t .`
 1. Open http://localhost:8000/
 
-## Viewing Kitchen Sink Bootstrap
+## Viewing Kitchen Sink Bootstrap:
 
 1. pull the repo down `git clone git@github.com:uthsc/bootstrap.git`
 1. navigate to the kitchen-sink folder
