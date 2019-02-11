@@ -15,3 +15,8 @@
 .banner-height {
   min-height: 120px !important;
 }
+
+.one-line-only {
+  display: flex;
+  justify-content: center;
+}
