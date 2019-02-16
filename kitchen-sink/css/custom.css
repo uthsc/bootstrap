@@ -25,3 +25,9 @@
   display: flex;
   justify-content: center;
 }
+
+.wrap-around {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
