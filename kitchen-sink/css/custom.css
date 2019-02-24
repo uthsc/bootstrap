@@ -46,6 +46,11 @@
   color: white;
 }
 
+.uthsc-orange {
+  background-color: #f77f00 !important;
+  color: white;
+}
+
 .outline-button  {
   color: #006a4d  !important;
   border-color: #006a4d  !important;
