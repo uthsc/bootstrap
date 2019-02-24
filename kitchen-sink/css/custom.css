@@ -46,4 +46,22 @@
   color: white;
 }
 
+.outline-button  {
+  color: #006a4d  !important;
+  border-color: #006a4d  !important;
+}
 
+.outline-button:hover{
+  background-color: #006a4d  !important;
+  color: white !important;
+}
+
+.outline-button-secondary  {
+  color: #00a5e3 !important;
+  border-color: #00a5e3  !important;
+}
+
+.outline-button-secondary:hover{
+  background-color: #00a5e3  !important;
+  color: white !important;
+}
