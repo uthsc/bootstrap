@@ -36,6 +36,14 @@
   margin: 15px;
 }
 
-.btn-primary {
-  background-color: green !important;
+.uthsc-green {
+  background-color: #006a4d !important;
+  color: white;
 }
+
+.uthsc-blue {
+  background-color: #00a5e3 !important;
+  color: white;
+}
+
+
