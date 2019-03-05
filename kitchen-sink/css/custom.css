@@ -71,6 +71,16 @@
   color: white !important;
 }
 
+.outline-button-orange  {
+  color: #f77f00 !important;
+  border-color: #f77f00  !important;
+}
+
+.outline-button-orange:hover{
+  background-color: #f77f00  !important;
+  color: white !important;
+}
+
  .card-styling {
   background-color: #fefefe !important;
   color: #555 !important;
