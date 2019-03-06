@@ -91,13 +91,13 @@
 
 .tab-styling {
   margin: 0 !important;
-  background: white !important;
+  background-color: white !important;
   color: #008CBA !important;
   /* background active 
   active color 
   font size 
   background hover */
-  font-size: 12px !important;
+  font-size: 15px !important;
   padding: 1.25 rem 1.5rem !important;
 }
 
