@@ -89,3 +89,24 @@
   padding: 1rem !important;
 } 
 
+.tab-styling {
+  margin: 0 !important;
+  background: white !important;
+  color: #008CBA !important;
+  /* background active 
+  active color 
+  font size 
+  background hover */
+  font-size: 12px !important;
+  padding: 1.25 rem 1.5rem !important;
+}
+
+.tab-styling:active {
+  background-color: #e6e6e6 !important;
+  color: #008CBA !important;
+}
+
+.tab-styling:hover {
+  background-color: #fefefe !important;
+}
+
