@@ -241,20 +241,40 @@
       <div class="container">
          <h1>Nav</h1>
          <br>
-         <ul class="nav nav-tabs">
-            <li class="nav-item">
-               <a class="nav-link active" href="#">Active</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-         </ul>
+         <div class="bd-example bd-example-tabs">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active show" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+               <div class="dropdown-menu">
+                 <a class="dropdown-item" href="#">Action</a>
+                 <a class="dropdown-item" href="#">Another action</a>
+                 <a class="dropdown-item" href="#">Something else here</a>
+                 <div class="dropdown-divider"></div>
+                 <a class="dropdown-item" href="#">Separated link</a>
+               </div>
+             </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade active show" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <p>Lorem ipsum dolor sit amet, persius epicuri cotidieque ex per, qui cu modus debet honestatis. Eam inani fuisset at, equidem imperdiet mnesarchum eu pri. Munere laoreet ut qui, commune voluptaria ex sed. Ubique tibique an cum. Iudico partiendo an mel, probatus lobortis ex usu. Sea ei choro laoreet intellegat, id duo solum scripserit.</p>
+              </div>
+              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <p>Quo erat aperiri rationibus ei, no cum option quaestio. Vis populo persecuti et, cum vidisse legimus ea, his probo nominati te. Mei quod diam errem ut. Exerci suscipit ponderum nam no, ex altera vulputate per. Vel ut discere consectetuer.</p>
+              </div>
+              <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <p>Platonem facilisis disputationi ut mei, eu probo saepe adolescens eam. Ne per dico vidisse urbanitas, cum ipsum tation deserunt ne. Feugiat electram petentium sea in, nam eu illum vituperatoribus. Per atqui convenire comprehensam ne. Mea ut atqui volutpat.</p>
+              </div>
+            </div>
+          </div>
       </div>
       <br />
       <hr width="85%" />
