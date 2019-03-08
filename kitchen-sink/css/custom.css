@@ -87,6 +87,11 @@
   fill: solid !important;
 }
 
+.button-group-specifics {
+  margin: 1rem !important;
+  border-spacing: 1px !important;
+}
+
  .card-styling {
   background-color: #fefefe !important;
   color: #555 !important;
