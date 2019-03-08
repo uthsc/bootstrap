@@ -32,7 +32,7 @@
   flex-wrap: wrap;
 }
 
-#add-space {
+.add-space {
   margin: 15px;
 }
 
@@ -81,6 +81,12 @@
   color: white !important;
 }
 
+.button-specifics {
+  padding: 0.85em 1em !important;
+  margin: 0 1rem 1rem 0 !important;
+  fill: solid !important;
+}
+
  .card-styling {
   background-color: #fefefe !important;
   color: #555 !important;
@@ -109,4 +115,3 @@
 .tab-styling:hover {
   background-color: #fefefe !important;
 }
-
