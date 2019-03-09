@@ -239,7 +239,7 @@
       <br />
       <hr width="85%" />
       <div class="container">
-            <h1>Nav</h1>
+         <h1>Nav</h1>
          <br>
          <div class="bd-example bd-example-tabs">
             <ul class="nav nav-tabs tab-styling " id="myTab" role="tablist">
@@ -310,21 +310,21 @@
          <br>
          <!-- Button trigger modal -->
          <button type="button" class="btn uthsc-green button-specifics" data-toggle="modal" data-target="#exampleModal">
-            Launch Modal Demo
+         Launch Modal Demo
          </button>
          <!-- Modal -->
-         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
                      <h5 class="modal-title" id="exampleModalLabel">Title header...</h5>
-                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <button type="button" class="close" data-dismiss="modal">
                      </button>
                   </div>
                   <div class="modal-body">
-                        Lorem ipsum dolor sit amet, ei mel illud oporteat mnesarchum. Liber docendi appetere vim et, cu molestie dissentias qui. Et vis clita iuvaret facilisis. Id ludus feugait sententiae qui, ut mei volumus suscipit. Ea dictas suscipiantur per, eros illud alterum ius ei. Et pri brute assum.
-                        <br>
-                        Ad fugit cetero eos, at mea ludus nonumy sadipscing. Ex viderer feugait his, autem omittantur efficiantur an per, nam consul quodsi omittam at. Te vis primis impedit constituam, vix audiam eruditi laboramus id. No his duis nullam necessitatibus, audire oportere ad qui, nam habeo saperet urbanitas ne. Eam aperiam civibus ut, zril feugiat blandit an eos.
+                     Lorem ipsum dolor sit amet, ei mel illud oporteat mnesarchum. Liber docendi appetere vim et, cu molestie dissentias qui. Et vis clita iuvaret facilisis. Id ludus feugait sententiae qui, ut mei volumus suscipit. Ea dictas suscipiantur per, eros illud alterum ius ei. Et pri brute assum.
+                     <br>
+                     Ad fugit cetero eos, at mea ludus nonumy sadipscing. Ex viderer feugait his, autem omittantur efficiantur an per, nam consul quodsi omittam at. Te vis primis impedit constituam, vix audiam eruditi laboramus id. No his duis nullam necessitatibus, audire oportere ad qui, nam habeo saperet urbanitas ne. Eam aperiam civibus ut, zril feugiat blandit an eos.
                   </div>
                   <div class="modal-footer">
                      <button type="button" class="btn btn-secondary button-specifics" data-dismiss="modal">Close</button>
@@ -338,10 +338,57 @@
       <div class="container">
          <h1>Collapse - Accordion</h1>
          <br>
+
+         <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Collapsible Group Item #1
+                  </button>
+                </h5>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Collapsible Group Item #2
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Collapsible Group Item #3
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
+
       <br />
       <hr width="85%" />
-      <script src="./js/jquery-3.3.1.min.js"></script>
+      <script src="./js/jquery-3.3.1.min.js"></script> -->
       <script src="./js/bootstrap.bundle.min.js"></script>
       <script src="./js/bootstrap.min.js"></script>
    </body>
