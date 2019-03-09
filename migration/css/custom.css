@@ -31,3 +31,7 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+.picture-position {
+  background-position: 60% 50%;
+}
