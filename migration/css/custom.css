@@ -1,0 +1,33 @@
+.callout-test {
+  margin: 0 0 1rem 0;
+  padding: 1rem;
+  border: 1px solid rgba(10, 10, 10, 0.25);
+  border-radius: 0;
+  background-color: #ebebeb;
+  color: #555;
+  display: flex;
+}
+
+.search-input {
+  flex: 1;
+}
+
+.banner-height {
+  min-height: 120px !important;
+}
+
+.one-line-only {
+  display: flex;
+  justify-content: center;
+}
+
+.center-tag {
+  display: flex;
+  justify-content: center;
+}
+
+.wrap-around {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
