@@ -33,5 +33,9 @@
 }
 
 .picture-position {
-  background-position: 60% 50%;
+  background-position: 60% 50% !important;
+}
+
+.font-color-override:hover {
+  color: green !important;
 }
