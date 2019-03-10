@@ -50,3 +50,15 @@
 /* .dropdown-coloring:hover {
   color: green !important;
 } */
+
+.jumbotron {
+  background-color: white !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1500px;
+}
