@@ -37,6 +37,16 @@
 }
 
 .font-color-override:hover {
-  color: white !important;
+  color: #fefefe !important;
   text-decoration: none !important;
 }
+
+.dropdown-coloring {
+  background-color: #333 !important;
+  color: #fefefe !important;
+  border-color: #fefefe !important;
+}
+
+/* .dropdown-coloring:hover {
+  color: green !important;
+} */
