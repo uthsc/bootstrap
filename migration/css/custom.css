@@ -58,7 +58,18 @@
   align-items: center !important;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 1500px;
+/* .container {
+  margin: 0 auto !important;
+  max-width: 1500px !important;
+} */
+
+.uthsc-blue {
+  background-color: #00a5e3 !important;
+  color: white;
 }
+
+.uthsc-blue:hover {
+  background-color: #00a5e3 !important;
+  color: white;
+}
+
