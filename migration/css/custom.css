@@ -38,12 +38,14 @@
 
   background-image:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)),url('../images/pharm-sci-home-hero-1.jpg');
   background-position:60% 50%;
-  min-height: 100%;
+  /* min-height: 100%; */
+  display: flex;
+  justify-content: center;
 
 
-  /* height:calc(81vh - 105px); */
+  height:calc(81vh - 105px);
   /* background-image:linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.45)),url("../images/fullscreen-students.jpg"); */
-  /* background-size:cover; */
+  background-size:cover;
   /* background-position:50% 50%;  */
   background-repeat:no-repeat; 
   /* display:-ms-flexbox; */
