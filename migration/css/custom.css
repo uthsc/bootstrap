@@ -89,3 +89,12 @@
   display: flex;
   justify-content: flex-end;
 } */
+
+
+hr {
+  border: none;
+  height: 1px;
+  /* Set the hr color */
+  color: #767676; /* old IE */
+  background-color: #767676; /* Modern Browsers */
+}
