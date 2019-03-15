@@ -98,3 +98,8 @@ hr {
   color: #767676; /* old IE */
   background-color: #767676; /* Modern Browsers */
 }
+
+.uthsc-navbar {
+  display: flex;
+  justify-content: center;
+}
