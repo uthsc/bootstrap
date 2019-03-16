@@ -33,13 +33,14 @@
 }
 
 .picture-position {
-  background-image:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)),url('../images/pharm-sci-home-hero-1.jpg');
-  background-position:60% 50%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("../images/pharm-sci-home-hero-1.jpg");
+  background-position: 60% 50%;
   display: flex;
   justify-content: center;
-  height:calc(81vh - 105px);
-  background-size:cover;
-  background-repeat:no-repeat; 
+  height: calc(81vh - 105px);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .font-color-override:hover {
@@ -90,7 +91,6 @@
   justify-content: flex-end;
 } */
 
-
 hr {
   border: none;
   height: 1px;
@@ -102,4 +102,9 @@ hr {
 .uthsc-navbar {
   display: flex;
   justify-content: center;
+}
+
+.uthsc-navbar-spacing {
+  padding-left: 40px;
+  padding-right: 40px;
 }
