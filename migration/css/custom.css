@@ -118,14 +118,8 @@ hr {
   border-top: 0;
 }
 
-.testing-this {
+/* helps with different browsers */
+.button-and-search {
   display: flex;
-}
-
-.testing-this-left {
-  justify-content: flex-start;
-}
-
-.testing-this-right {
-  justify-content: flex-end;
+  justify-content: center;
 }
