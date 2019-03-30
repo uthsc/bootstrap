@@ -1,5 +1,23 @@
 # Kevin Gonzalez: Senior Project
 
+## Viewing - Kitchen Sink Bootstrap:
+
+1. pull the repo down `git clone git@github.com:uthsc/bootstrap.git`
+1. navigate to the kitchen-sink folder
+1. click on index.html
+
+- Updates will be posted on: http://exotic-pin.surge.sh/
+
+
+## Viewing - Foundation to Bootstrap Migration:
+
+1. pull the repo down `git clone git@github.com:uthsc/bootstrap.git`
+1. navigate to the migration folder
+1. click on index.html
+
+- Updates will be posted on: http://exotic-test.surge.sh/
+
+
 ## Get PHP on you local machine:
 
 _Windows:_
@@ -22,20 +40,3 @@ _MacOS_
 1. enter new directory `cd bootstrap`
 1. start the local web server `php -S localhost:8000 -t .`
 1. Open http://localhost:8000/
-
-## Viewing - Kitchen Sink Bootstrap:
-
-1. pull the repo down `git clone git@github.com:uthsc/bootstrap.git`
-1. navigate to the kitchen-sink folder
-1. click on index.html
-
-- Updates will be posted on: http://exotic-pin.surge.sh/
-
-
-## Viewing - Foundation to Bootstrap Migration:
-
-1. pull the repo down `git clone git@github.com:uthsc/bootstrap.git`
-1. navigate to the migration folder
-1. click on index.html
-
-- Updates will be posted on: http://exotic-test.surge.sh/
