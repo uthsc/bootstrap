@@ -123,3 +123,10 @@ hr {
   display: flex;
   justify-content: center;
 }
+
+.find-your-future {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
